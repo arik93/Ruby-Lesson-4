@@ -1,10 +1,7 @@
 array = [0, 1]
 
-(0..9).map {
-    |index|
-    fib_num = array[index] + array[index + 1]
-    array.push(fib_num)
-}
-
+while (count = array[-1] + array[-2]) < 100
+    array << count
+end
 
 puts array
